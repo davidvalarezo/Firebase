@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.example.eventos.FotografiasDrive">
+    <item
+        android:id="@+id/action_camara"
+        android:orderInCategory="100"
+        android:title="Hacer foto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_galeria"
+        android:orderInCategory="101"
+        android:title="Elegir imagen"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/compartir_camara"
+        android:orderInCategory="102"
+        android:title="Compartir foto cámara"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/compartir_galeria"
+        android:orderInCategory="103"
+        android:title="Compartir foto galería"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/estoy_aqui"
+        android:orderInCategory="104"
+        android:title="Reto Estoy Aquí"
+        app:showAsAction="never" />
+</menu>

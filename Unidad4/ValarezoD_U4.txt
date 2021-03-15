@@ -1,0 +1,11 @@
+Cuenta de google: david.valarezo.0413@gmail.com
+URL del proyecto en la consola de Firebase:
+https://console.firebase.google.com/u/0/project/eventos-67df9/
+
+Firebase FCM
+• Si has creado un servidor propio:
+Servidor: https://dvalarez.000webhostapp.com/eventos/notificar.html
+http://curso-firebase.000webhostapp.com/notificar.html
+• Si no has creado un servidor propio debes incluir:
+Id. Proyecto: eventos-67df9
+Clave de servidor: AAAA5PkKxrw:APA91bFCFU2qd-Cde78CFLGPyGx4lptsPruGlzbvOY-wToJqckHAV0b9nf5inQ0rNlmznJ6uRZeLN-mZBbZJOW_5rLuDVMUt7__hq0KuPNy0StZFBSOjZPTG1nF2rR5a-2_Mo306Bois

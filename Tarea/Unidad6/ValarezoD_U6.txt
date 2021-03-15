@@ -1,0 +1,35 @@
+Cuenta de google: david.valarezo.0413@gmail.com
+URL del proyecto en la consola de Firebase:
+https://console.firebase.google.com/u/0/project/eventos-67df9/
+
+Unidad 5: Firebase Functions, Enlaces Dinámicos, Stability y mucho más. 
+(X) Ejercicio: Activador Firestore en Firebase Functions. (1 punto) 
+(X) Ejercicio: Activador Google Analytics en Firebase Functions. (1 puntos) 
+(X) Ejercicio: Crear miniatura al subir imagen a Cloud Storage. (1 punto) 
+(X) Ejercicio: Crear un servicio Web con un activador HTTP. (1 punto) 
+(X) Ejercicio: Crear un vínculo dinámico en Firebase. (1 puntos) 
+(X) Ejercicio: Abrir un vínculo dinámico en una actividad. (1 punto) 
+(X) Ejercicio: Abrir un vínculo dinámico con sobrecarga de datos. (1 punto) 
+(X) Ejercicio: Enviar invitaciones desde una aplicación Android. (1 punto) 
+(X) Ejercicio: Enviar invitaciones con sobrecarga de datos. (1 punto) 
+(X) Ejercicio: Configuración remota en Eventos. (1 punto) 
+(X) Ejercicio: Inicializar Firebase Crashlytics en la consola Firebase. (1 punto) 
+(X) Ejercicio: Configurar Firebase Crashlytics en una app Android. (1 punto) 
+(X) Ejercicio: Performance Monitoring en Android. (1 punto)
+(X) Ejercicio: Crear seguimientos personalizados. (1 punto) 
+(X) Ejercicio: Prueba Robo en Firebase Test Lab. (1 punto) 
+Extras: 
+(X) Ejercicio: Enviar campañas. (0,5 punto) 
+(X) Ejercicio: Interactuar con mensajes de In-App Messaging. (0,5 punto) 
+(X) Práctica: Información del día del evento. (1 punto) 
+(X) Práctica: Campaña de descuento en evento. (1 puntos) 
+(X) Práctica: Configuración remota según país. (0,5 punto) 
+(X) Práctica: Activar informes de inclusión voluntaria. (0,5 punto) 
+(X) Práctica: Configurar Performance Monitoring con Remote Config. (1 punto)
+
+Unidad 6: Redes sociales
+(X) Ejercicio: Obtener el correo electrónico del usuario de Facebook que está utilizando la aplicación.
+(X) Ejercicio: Publicar un comentario o enlace (“link”) en Facebook.
+(X) Ejercicio: Publicar una foto en Facebook.
+(X) Ejercicio: Publicar un comentario o enlace (“link”) en Twitter.
+(X) Ejercicio: Publicar una foto en Twitter.

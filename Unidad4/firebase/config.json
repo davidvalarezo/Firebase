@@ -1,0 +1,29 @@
+{
+    "title":"Muestra de Titulo",
+    "body":"Muestra de body",
+    "icon":"ic_notifi_icon",
+    "sound":"defaultSoundUri",
+    "color":"#3F51B5",
+    "topic":"general",
+    "apikey":"AAAA5PkKxrw:APA91bFCFU2qd-Cde78CFLGPyGx4lptsPruGlzbvOY-wToJqckHAV0b9nf5inQ0rNlmznJ6uRZeLN-mZBbZJOW_5rLuDVMUt7__hq0KuPNy0StZFBSOjZPTG1nF2rR5a-2_Mo306Bois",
+    "autor":{
+        "name":"David Valarezo",
+        "email":"david.valarezo.0413@gmail.com",
+        "company":"Curso Android Avanzado"
+    },
+    "actividades":[
+        {
+            "etiqueta":"Promoción",
+            "nombre":"PromocionActivity"
+        },
+        {
+            "etiqueta":"Simple",
+            "nombre":"SimpleActivity"
+        },
+        {
+            "etiqueta":"Imagen",
+            "nombre":"ImagenActivity"
+        }
+    ]
+
+}

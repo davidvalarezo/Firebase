@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacebookActivity">
+
+    <TextView
+        android:id="@+id/textSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSaludo"
+        app:srcCompat="@drawable/ic_facebook" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Selecciona una imagen para compartir:"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:drawableRight="@android:drawable/ic_menu_gallery"
+        android:onClick="seleccionarFotografiaDispositivo"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/login_button_facebook"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <Button
+            android:id="@+id/boton_obtenerDatosUser"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+            android:drawableRight="@drawable/ic_user"
+            android:onClick="boton_obtenerDatosPulsado"
+            android:text="Info"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/boton_info"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+            android:drawableRight="@drawable/ic_message"
+            android:onClick="boton2_pulsado"
+            android:text="Text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/boton_imagenFacebook"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+            android:drawableRight="@drawable/ic_imagen"
+            android:onClick="boton3_pulsado"
+            android:text="Foto"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="121dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        facebook:com_facebook_confirm_logout="false"
+        facebook:com_facebook_tooltip_mode="never_display" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/boton_Login"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+            android:drawableRight="@drawable/ic_iniciar_sesion"
+            android:onClick="boton_Login_pulsado"
+            android:text=""
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/boton_Logout"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+            android:drawableRight="@drawable/ic_cerrar_sesion"
+            android:onClick="boton_Logout_pulsado"
+            android:text=""
+            android:textSize="10sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

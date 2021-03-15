@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Notificaciones</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<header>
+        <h1>Servidor Messaging</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="notificar.html"><i class="material-icons">mail_outline</i><span>Enviar Nofiticación</span></a>
+            </li>
+            <li>
+                <a href="listar.html"><i class="material-icons">reorder</i><span>Listar Dispositivos</span></a>
+            </li>
+        </ul>
+    </nav>
+
+	<div id="cabecera">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="20%" align="center" valign="middle"><img src="http://www.androidcurso.com/images/certificado_upv.jpg"></td>
+          <td width="80%" align="left" valign="middle">Enviar Notificaciones a Dispositivos - Servidor Valarezo!</td>
+        </tr>
+      </table>
+    </div>
+	<div id="contenido">
+		<form action="notificar.php" name="formulario" method="post">
+			<table>
+				<tr>
+					<td colspan="2" align="center"><h2>Enviar notificación</h2></td>
+				</tr>
+				<!--tr>
+					<td>id Proyecto:</td>
+					<td><input type="text" name="idapp" id="idapp" size="15" /></td>
+				</tr>
+				<tr>
+					 <td>Token de Firebase Cloud Messaging: </td>
+					 <td><input type="text" name="apiKey" id="apiKey" size="50" /></td>
+				</tr-->
+				<tr>
+					  <td valign="vertical"><b>Nofiticación:</b></td>
+					  <td></td>
+			   </tr>
+				<tr>
+					  <td valign="vertical">Titulo:</td>
+					  <td><input type="text" name="title"></td>
+			   </tr>
+				<tr>
+					  <td valign="vertical">Mensaje:</td>
+					  <td><input type="text" name="mensaje"></td>
+			   </tr>
+			   <tr>
+					  <td valign="vertical">click_action:</td>
+					  <td><input type="text" name="click_action"></td>
+			   </tr>
+			   <tr>
+					  <td valign="vertical"><b>Carga de datos:</b></td>
+					  <td></td>
+			   </tr>
+			   <tr>
+					  <td valign="vertical">Evento:</td>
+					  <td><input type="text" name="evento"></td>
+			   </tr>
+			   <tr>
+					  <td><input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar notificación" /></td>
+					  <td></td>
+			   </tr>
+		   </table>
+	   </form>
+	 </div>
+</body>
+</html>
